@@ -1,0 +1,98 @@
+/* General body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background: #0033ab; /* St. Francis deep blue */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #ed1c24; /* St. Francis red */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0033ab; /* St. Francis deep blue */
+    margin-bottom: 10px;
+}
+
+section p, section li {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+button, .button {
+    background-color: #0033ab; /* St. Francis deep blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: #001f6b; /* Darker blue on hover */
+    color: #fff;
+}
+
+.button {
+    text-decoration: none; /* Remove underline from links styled as buttons */
+}
+
+/* Image styling */
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+}
+.banner img {
+    display: block;
+    max-width: 600px; /* Adjust as needed */
+    width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centers the image horizontally */
+}
